@@ -9,8 +9,8 @@ var idDict = {
     "community" : {"element" : "communityTitle", "nav" : "nav-menu-item-15"},
     "impact" : {"element" : "impactTitle", "nav" : "nav-menu-item-16"},
     "health" : {"element" : "healthTitle", "nav" : "nav-menu-item-17"},
-    "news" : {"element" : "newsTitle", "nav" : "nav-menu-item-18"},
-    "report" : {"element" : "reportTitle", "nav" : "nav-menu-item-19"},
+    "news" : {"element" : "newsHighlightTarget", "nav" : "nav-menu-item-18"},
+    "report" : {"element" : "reportHighlightTarget", "nav" : "nav-menu-item-19"},
     "contact" : {"element" : "contactHighlightTarget", "nav" : "nav-menu-item-128"} 
 }
 
