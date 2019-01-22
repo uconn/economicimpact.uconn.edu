@@ -32,40 +32,40 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
 
-    document.getElementById("nav-menu-item-14").onclick = function() {
-        removeHighlights();
-        document.getElementById("nav-menu-item-14").classList.add("active");
-    }
+    // document.getElementById("nav-menu-item-14").onclick = function() {
+    //     removeHighlights();
+    //     document.getElementById("nav-menu-item-14").classList.add("active");
+    // }
 
-    document.getElementById("nav-menu-item-15").onclick = function() {
-        removeHighlights();
-        document.getElementById("nav-menu-item-15").classList.add("active");
-    }
+    // document.getElementById("nav-menu-item-15").onclick = function() {
+    //     removeHighlights();
+    //     document.getElementById("nav-menu-item-15").classList.add("active");
+    // }
 
-    document.getElementById("nav-menu-item-16").onclick = function() {
-        removeHighlights();
-        document.getElementById("nav-menu-item-16").classList.add("active");
-    }
+    // document.getElementById("nav-menu-item-16").onclick = function() {
+    //     removeHighlights();
+    //     document.getElementById("nav-menu-item-16").classList.add("active");
+    // }
 
-    document.getElementById("nav-menu-item-17").onclick = function() {
-        removeHighlights();
-        document.getElementById("nav-menu-item-17").classList.add("active");
-    }
+    // document.getElementById("nav-menu-item-17").onclick = function() {
+    //     removeHighlights();
+    //     document.getElementById("nav-menu-item-17").classList.add("active");
+    // }
 
-    document.getElementById("nav-menu-item-18").onclick = function() {
-        removeHighlights();
-        document.getElementById("nav-menu-item-18").classList.add("active");
-    }
+    // document.getElementById("nav-menu-item-18").onclick = function() {
+    //     removeHighlights();
+    //     document.getElementById("nav-menu-item-18").classList.add("active");
+    // }
 
-    document.getElementById("nav-menu-item-19").onclick = function() {
-        removeHighlights();
-        document.getElementById("nav-menu-item-19").classList.add("active");
-    }
+    // document.getElementById("nav-menu-item-19").onclick = function() {
+    //     removeHighlights();
+    //     document.getElementById("nav-menu-item-19").classList.add("active");
+    // }
 
-    document.getElementById("nav-menu-item-128").onclick = function() {
-        removeHighlights();
-        document.getElementById("nav-menu-item-128").classList.add("active");
-    }
+    // document.getElementById("nav-menu-item-128").onclick = function() {
+    //     removeHighlights();
+    //     document.getElementById("nav-menu-item-128").classList.add("active");
+    // }
 
     document.addEventListener("scroll", highlight)
 });
