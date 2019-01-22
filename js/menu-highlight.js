@@ -69,3 +69,31 @@ document.addEventListener('DOMContentLoaded', function(){
 
     document.addEventListener("scroll", highlight)
 });
+
+function researchScroll() {
+    jQuery('html,body').animate({scrollTop: jQuery('#research').offset().top}, 1000);
+}
+
+function communityScroll() {
+    jQuery('html,body').animate({scrollTop: jQuery('#community').offset().top}, 1000);
+}
+
+function impactScroll() {
+    jQuery('html,body').animate({scrollTop: jQuery('#impact-by-campus').offset().top}, 1000);
+}
+
+function healthScroll() {
+    jQuery('html,body').animate({scrollTop: jQuery('#_health').offset().top}, 1000);
+}
+
+function newsScroll() {
+    jQuery('html,body').animate({scrollTop: jQuery('#_news').offset().top}, 1000);
+}
+
+function reportScroll() {
+    jQuery('html,body').animate({scrollTop: jQuery('#_full-report').offset().top}, 1000);
+}
+
+function contactScroll() {
+    jQuery('html,body').animate({scrollTop: jQuery('#contact').offset().top}, 1000);
+}
