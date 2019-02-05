@@ -567,7 +567,7 @@ div, dl, dt, dd, ul, ol, li, .impact_by_campus .map .storrs, .impact_by_campus .
 
 /* Default Link Styles */
 a, #navbar .top-bar-section a, #navbar .top-bar-section a {
-  color: #008CBA;
+  color: #0000CC;
   text-decoration: none;
   line-height: inherit; }
   a:hover, #navbar .top-bar-section a:hover, #navbar .top-bar-section a:hover, a:focus, #navbar .top-bar-section a:focus, #navbar .top-bar-section a:focus {
@@ -2906,7 +2906,10 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 64em){
   .impact_by_campus .factbox{
-    margin: 0 !important;
+    margin: 0 0 30px 0 !important;
+  }
+  .impact_by_campus .map{
+    margin: 0 0 30px 0 !important;
   }
   #mainTitle{
     padding-top: 10rem;
@@ -2939,6 +2942,9 @@ meta.foundation-mq-topbar {
   }
   #full-report .text {
     font-size: 1.3rem;
+  }
+  .impact_by_campus .map{
+    margin-bottom: 35px !important;
   }
 }
 
@@ -3011,7 +3017,7 @@ meta.foundation-mq-topbar {
     }
 
 article {
-  padding: 3.125rem 0; }
+  padding: 3.125rem 1.25rem; }
   article p {
     /*font-size: 1.125rem;*/
     line-height: 2.25rem;
@@ -3217,6 +3223,9 @@ section .factbox {
 @media only screen and (max-width: 60em) {
   .impact_by_campus .map{
     display: none;
+  }
+  .impact_by_campus .factbox{
+    margin-left: 30px;
   }
 }
 .videocaption p {

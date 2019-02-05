@@ -32,68 +32,70 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
 
-    // document.getElementById("nav-menu-item-14").onclick = function() {
-    //     removeHighlights();
-    //     document.getElementById("nav-menu-item-14").classList.add("active");
-    // }
-
-    // document.getElementById("nav-menu-item-15").onclick = function() {
-    //     removeHighlights();
-    //     document.getElementById("nav-menu-item-15").classList.add("active");
-    // }
-
-    // document.getElementById("nav-menu-item-16").onclick = function() {
-    //     removeHighlights();
-    //     document.getElementById("nav-menu-item-16").classList.add("active");
-    // }
-
-    // document.getElementById("nav-menu-item-17").onclick = function() {
-    //     removeHighlights();
-    //     document.getElementById("nav-menu-item-17").classList.add("active");
-    // }
-
-    // document.getElementById("nav-menu-item-18").onclick = function() {
-    //     removeHighlights();
-    //     document.getElementById("nav-menu-item-18").classList.add("active");
-    // }
-
-    // document.getElementById("nav-menu-item-19").onclick = function() {
-    //     removeHighlights();
-    //     document.getElementById("nav-menu-item-19").classList.add("active");
-    // }
-
-    // document.getElementById("nav-menu-item-128").onclick = function() {
-    //     removeHighlights();
-    //     document.getElementById("nav-menu-item-128").classList.add("active");
-    // }
+    document.getElementById('research-link').addEventListener('click', function(event){
+        event.preventDefault();
+        jQuery('html,body').animate({scrollTop: jQuery('#research').offset().top}, 1000);
+    });
+    
+    document.getElementById('community-link').addEventListener('click',function(event){
+        event.preventDefault();
+        jQuery('html,body').animate({scrollTop: jQuery('#community').offset().top}, 1000);
+    });
+    
+    document.getElementById('impact-link').addEventListener('click', function(event){
+        event.preventDefault();
+        jQuery('html,body').animate({scrollTop: jQuery('#impact-by-campus').offset().top}, 1000);
+    });
+    
+    document.getElementById('health-link').addEventListener('click', function(event){
+        event.preventDefault();
+        jQuery('html,body').animate({scrollTop: jQuery('#_health').offset().top}, 1000);
+    });
+    
+    document.getElementById('news-link').addEventListener('click', function(event){
+        event.preventDefault();
+        jQuery('html,body').animate({scrollTop: jQuery('#_news').offset().top}, 1000);
+    });
+    
+    document.getElementById('report-link').addEventListener('click', function(event){
+        event.preventDefault();
+        jQuery('html,body').animate({scrollTop: jQuery('#_full-report').offset().top}, 1000);
+    });
+    
+    document.getElementById('contact-link').addEventListener('click', function(event){
+        event.preventDefault();
+        jQuery('html,body').animate({scrollTop: jQuery('#contact').offset().top}, 1000);
+    });
 
     document.addEventListener("scroll", highlight)
 });
 
-function researchScroll() {
-    jQuery('html,body').animate({scrollTop: jQuery('#research').offset().top}, 1000);
-}
 
-function communityScroll() {
-    jQuery('html,body').animate({scrollTop: jQuery('#community').offset().top}, 1000);
-}
 
-function impactScroll() {
-    jQuery('html,body').animate({scrollTop: jQuery('#impact-by-campus').offset().top}, 1000);
-}
+// function researchScroll() {
+//     jQuery('html,body').animate({scrollTop: jQuery('#research').offset().top}, 1000);
+// }
 
-function healthScroll() {
-    jQuery('html,body').animate({scrollTop: jQuery('#_health').offset().top}, 1000);
-}
+// function communityScroll() {
+//     jQuery('html,body').animate({scrollTop: jQuery('#community').offset().top}, 1000);
+// }
 
-function newsScroll() {
-    jQuery('html,body').animate({scrollTop: jQuery('#_news').offset().top}, 1000);
-}
+// function impactScroll() {
+//     jQuery('html,body').animate({scrollTop: jQuery('#impact-by-campus').offset().top}, 1000);
+// }
 
-function reportScroll() {
-    jQuery('html,body').animate({scrollTop: jQuery('#_full-report').offset().top}, 1000);
-}
+// function healthScroll() {
+//     jQuery('html,body').animate({scrollTop: jQuery('#_health').offset().top}, 1000);
+// }
 
-function contactScroll() {
-    jQuery('html,body').animate({scrollTop: jQuery('#contact').offset().top}, 1000);
-}
+// function newsScroll() {
+//     jQuery('html,body').animate({scrollTop: jQuery('#_news').offset().top}, 1000);
+// }
+
+// function reportScroll() {
+//     jQuery('html,body').animate({scrollTop: jQuery('#_full-report').offset().top}, 1000);
+// }
+
+// function contactScroll() {
+//     jQuery('html,body').animate({scrollTop: jQuery('#contact').offset().top}, 1000);
+// }
