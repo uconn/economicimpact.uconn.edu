@@ -552,13 +552,59 @@ select {
 
 @media only screen and (min-width:120.063em) {
   .xxlarge-text-left {
-    text-align: left !important; }
+    text-align: left !important; 
+  }
   .xxlarge-text-right {
-    text-align: right !important; }
+    text-align: right !important; 
+  }
   .xxlarge-text-center {
-    text-align: center !important; }
+    text-align: center !important; 
+  }
   .xxlarge-text-justify {
-    text-align: justify !important; } }
+    text-align: justify !important; 
+  } 
+}
+
+/* Footer */
+#page-footer {
+  color: #9A8E57;
+  font-size: 0.875rem;
+  padding: 0 3.125rem; 
+}
+#page-footer a, #page-footer #navbar .top-bar-section a, #navbar .top-bar-section #page-footer a, #page-footer #navbar .top-bar-section a, #navbar .top-bar-section #page-footer a {
+  color: #9A8E57; 
+}
+#page-footer a:hover, #page-footer #navbar .top-bar-section a:hover, #navbar .top-bar-section #page-footer a:hover, #page-footer #navbar .top-bar-section a:hover, #navbar .top-bar-section #page-footer a:hover {
+  text-decoration: underline; 
+}
+
+@media only screen and (min-width: 50.063em){
+  #footerContainer{
+    margin: 0 auto;
+    padding-bottom:2rem;
+    width: fit-content;
+  }
+  .footerItem{
+    display:inline-block;
+    padding-right:10px;
+  }
+}
+
+@media only screen and (max-width: 50em){
+  #footerContainer{
+    margin: 0 auto;
+    padding-bottom:2rem;
+    width: fit-content;
+    text-align:center;
+  }
+  .footerItem{
+    display:block;
+    margin:0 auto;
+    padding-bottom:0.5rem;
+  }
+}
+
+
 
 /* Typography resets */
 div, dl, dt, dd, ul, ol, li, .impact_by_campus .map .storrs, .impact_by_campus .map .health, .impact_by_campus .map .hartford, .impact_by_campus .map .averyPoint, .impact_by_campus .map .stamford, .impact_by_campus .map .waterbury, .impact_by_campus .map .torrington, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
@@ -3297,16 +3343,7 @@ section.full-report p {
   .addthis_toolbox a.addthis_32x32_style, .addthis_toolbox #navbar .top-bar-section a.addthis_32x32_style, #navbar .top-bar-section .addthis_toolbox a.addthis_32x32_style, .addthis_toolbox #navbar .top-bar-section a.addthis_32x32_style, #navbar .top-bar-section .addthis_toolbox a.addthis_32x32_style {
     display: inline-block; }
 
-#page-footer {
-  color: #9A8E57;
-  font-size: 0.875rem;
-  padding: 0 3.125rem; }
-  #page-footer a, #page-footer #navbar .top-bar-section a, #navbar .top-bar-section #page-footer a, #page-footer #navbar .top-bar-section a, #navbar .top-bar-section #page-footer a {
-    color: #9A8E57; 
-  }
-    #page-footer a:hover, #page-footer #navbar .top-bar-section a:hover, #navbar .top-bar-section #page-footer a:hover, #page-footer #navbar .top-bar-section a:hover, #navbar .top-bar-section #page-footer a:hover {
-      text-decoration: underline; 
-  }
+
 .at-icon{fill:#fff;border:0}.at-icon-wrapper{display:inline-block;overflow:hidden}a .at-icon-wrapper{cursor:pointer}.at-rounded,.at-rounded-element .at-icon-wrapper{border-radius:12%}.at-circular,.at-circular-element .at-icon-wrapper{border-radius:50%}.addthis_32x32_style .at-icon{width:2pc;height:2pc}.addthis_24x24_style .at-icon{width:24px;height:24px}.addthis_20x20_style .at-icon{width:20px;height:20px}.addthis_16x16_style .at-icon{width:1pc;height:1pc}#at16lb{
   display:none;
   position:absolute;
